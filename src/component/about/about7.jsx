@@ -39,7 +39,7 @@ const review = [
   },
 ];
 
-const about7 = () => {
+const About7 = () => {
   const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
     height: 3,
     borderRadius: 0,
@@ -262,4 +262,4 @@ const about7 = () => {
   );
 };
 
-export default about7;
+export default About7;

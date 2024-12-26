@@ -118,7 +118,7 @@ const TeamPage = () => {
 
         <Box sx={{ border: '0.2px solid #FFF', my: 7 }}></Box>
 
-        <Container>
+        <Container maxWidth={'xl'}>
           <Grid container spacing={4} sx={{ marginTop: '3rem' }}>
             {[
               'We are Always Dedicated to our Work',
