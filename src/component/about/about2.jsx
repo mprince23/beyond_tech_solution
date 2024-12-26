@@ -168,8 +168,8 @@ const About2 = () => {
               sx={{
                 color: "#fff",
                 fontSize: "20px",
-                width: "30px",
-                height: "30px",
+                width: "50px",
+                height: "50px",
                 borderRadius: "50%",
                 backgroundColor: "#353e47",
                 padding: "13px",
@@ -185,8 +185,8 @@ const About2 = () => {
               sx={{
                 color: "#fff",
                 fontSize: "20px",
-                width: "30px",
-                height: "30px",
+                width: "50px",
+                height: "50px",
                 borderRadius: "50%",
                 backgroundColor: "#353e47",
                 padding: "13px",

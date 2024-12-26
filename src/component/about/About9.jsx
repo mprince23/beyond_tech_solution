@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Container, Typography, Button } from '@mui/material';
+import { Box, Container, Typography } from '@mui/material';
 import ab9 from '../../assets/image/about9/ab9.webp';
 
 const About9 = () => {

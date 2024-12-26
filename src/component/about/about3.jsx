@@ -1,6 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Box, Container, Grid, Typography, LinearProgress, colors } from '@mui/material';
+import { Box, Container, Grid, Typography, LinearProgress } from '@mui/material';
 
 const About3 = () => {
   const [progress1, setProgress1] = React.useState(0); 
