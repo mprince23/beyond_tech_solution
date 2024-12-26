@@ -18,24 +18,24 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { ArrowBack, ArrowForward } from "@mui/icons-material";
 import { Navigation } from "swiper/modules";
-import ab4 from "../../assets/image/about/ab4.webp"
-import aw9 from "../../assets/image/about/aw9.webp"
-import aw10 from "../../assets/image/about/aw10.webp"
-import aw11 from "../../assets/image/about/aw11.webp"
-import aw12 from "../../assets/image/about/aw12.webp"
+import ab4 from "../../assets/image/about/ab4.webp";
+import aw9 from "../../assets/image/about/aw9.webp";
+import aw10 from "../../assets/image/about/aw10.webp";
+import aw11 from "../../assets/image/about/aw11.webp";
+import aw12 from "../../assets/image/about/aw12.webp";
 
 const review = [
   {
-    logo:aw9,
+    logo: aw9,
   },
   {
-    logo:aw10,
+    logo: aw10,
   },
   {
-    logo:aw11,
+    logo: aw11,
   },
   {
-    logo:aw12,
+    logo: aw12,
   },
 ];
 
@@ -60,10 +60,14 @@ const About7 = () => {
   }));
 
   return (
-    <Box sx={{pt:5}}>
+    <Box sx={{ pt: 5 }}>
       <Container maxWidth="xl">
         <Box sx={{ px: { xs: 2, sm: 5, md: 8 } }}>
-          <Grid container spacing={5} sx={{display:"flex",alignItems:"center"}}>
+          <Grid
+            container
+            spacing={5}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
             <Grid item xs={12} sm={12} md={6} lg={5}>
               <Box>
                 <img
@@ -93,12 +97,16 @@ const About7 = () => {
                 <Typography
                   variant="h2"
                   sx={{
-                    fontSize: { xs: "28px", sm: "32px", md: "34px",lg:"45px" },
+                    fontSize: {
+                      xs: "28px",
+                      sm: "32px",
+                      md: "34px",
+                      lg: "45px",
+                    },
                     pb: 2,
                     fontWeight: "500",
                     color: "#0A1119",
                     textAlign: { xs: "center", md: "left" },
-                    whiteSpace:"nowrap"
                   }}
                 >
                   What Our Customers Say?
@@ -184,10 +192,18 @@ const About7 = () => {
                               <Box>
                                 <Box
                                   sx={{
-                                    display:{xs:"block",sm:"flex",md:"block",lg:"flex"},
+                                    display: {
+                                      xs: "block",
+                                      sm: "flex",
+                                      md: "block",
+                                      lg: "flex",
+                                    },
                                     gap: 2,
-                                    justifyContent: { xs: "center", md: "start" },
-                                    textAlign:{xs:"center",sm:"start"}
+                                    justifyContent: {
+                                      xs: "center",
+                                      md: "start",
+                                    },
+                                    textAlign: { xs: "center", sm: "start" },
                                   }}
                                 >
                                   <Typography
@@ -201,7 +217,11 @@ const About7 = () => {
                                         xs: "14px",
                                       },
                                       fontFamily: "'Raleway', sans-serif",
-                                      textAlign: { xs: "center",sm:"start", md: "left" },
+                                      textAlign: {
+                                        xs: "center",
+                                        sm: "start",
+                                        md: "left",
+                                      },
                                     }}
                                   >
                                     Heather Smith - Talk
