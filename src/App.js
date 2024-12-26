@@ -1,10 +1,10 @@
 import React from "react";
-import About from "./component/about";
+import About from "./pages/about";
 
 const App = () => {
-  return <div>
+  return <>
     <About />
-  </div>;
+  </>;
 };
 
 export default App;
