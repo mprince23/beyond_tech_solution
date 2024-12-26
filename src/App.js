@@ -2,11 +2,9 @@ import React from 'react'
 import About from './pages/about'
 
 const App = () => {
-  return (
-    <div>
-        <About />
-    </div>
-  )
-}
+  return <>
+    <About />
+  </>;
+};
 
 export default App
