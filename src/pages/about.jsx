@@ -1,16 +1,14 @@
-import React from 'react'
-import TeamPage from '../component/about/teampage'
-import Clients from '../component/about/clients'
-import Experience from '../component/about/experience'
+import React from "react";
+import About2 from "../component/about/about2";
+import About5 from "../component/about/about5";
 
 const About = () => {
-    return (
-        <>
-            <Experience />
-            <TeamPage />
-            <Clients />
-        </>
-    )
-}
+  return (
+    <div>
+      <About2 />
+      <About5 />
+    </div>
+  );
+};
 
-export default About
+export default About;
