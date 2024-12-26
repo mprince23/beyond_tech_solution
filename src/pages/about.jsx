@@ -1,14 +1,14 @@
-import React from 'react'
-import About1 from "../component/about/about1";
-import About7 from "../component/about/about7";
+import React from "react";
+import About2 from "../component/about/about2";
+import About5 from "../component/about/about5";
 
 const About = () => {
   return (
     <div>
-       <About1 />
-       <About7 />
+      <About2 />
+      <About5 />
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
